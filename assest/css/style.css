@@ -4,3 +4,51 @@
     box-sizing: border-box;
     font-family: "Arial";
 }
+
+header{
+    background-color: #379936;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header form, input{
+    padding: 5px;
+    border: none;
+}
+
+
+
+header form .form-busca{
+    padding: 5px;
+    border: none;
+    outline-style: none;
+ 
+}
+header form .form-busca::placeholder{
+    color: #949494;
+    font-size: 15px;
+}
+
+header .input-icons i{
+    position: fixed;
+
+}
+header .input-icons {
+    width: 100%;
+    
+}
+header .icon {
+    padding: 10px;
+    color: #003100;
+    min-width: 50px;
+    margin-top: -4px;
+    font-size: 14px;
+    margin-left: 150px;
+}
+
+
+header .form-busca{
+    width: 100%;
+    padding: 10px;
+}
