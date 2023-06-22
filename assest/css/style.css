@@ -14,6 +14,8 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+ 
+
 }
 
 header form, input{
@@ -35,7 +37,8 @@ header form .form-busca::placeholder{
 }
 
 header .input-icons i{
-    position: fixed;
+    position: absolute;
+    left: 1285px;
 
 }
 header .input-icons {
@@ -48,7 +51,7 @@ header .icon {
     min-width: 50px;
     margin-top: -4px;
     font-size: 14px;
-    margin-left: 150px;
+    
 }
 
 
@@ -141,7 +144,7 @@ header .form-busca{
 
 .fundo-rodape{
     background-color: #003100;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
     color: #fff;
     font-size: 9px;
@@ -149,7 +152,7 @@ header .form-busca{
 
 .fundo-rodape-sobre{
     background-color: #003100;
-    padding: 20px;
+    padding: 25px;
     text-align: center;
     color: #fff;
     font-size: 9px;
@@ -166,4 +169,53 @@ header .form-busca{
 .paragrafo-infor{
     width: 100%;
     max-width: 700px;
+}
+
+table {
+    background-color: #003100;
+    width: 80%;
+    border-collapse: collapse; 
+    text-align: center;
+    
+}
+.titulo td{
+    background-color: #003100;
+    color: #42bb40;
+    padding: 10px;
+    border: none;
+    border-collapse: collapse; 
+   
+}
+
+.titulo-tabela td{
+    background-color: #68c566;
+    padding: 10px;
+    border: none;
+    border-collapse: collapse; 
+   
+}
+
+.tabela td{
+    background-color: #42bb40;
+    padding: 10px;
+    border: none;
+    border-collapse: collapse; 
+}
+
+.imgs img{
+    width: 100%;
+    max-width: 500px;
+}
+
+.imgs .campus{
+    width: 100%;
+    max-width: 465px;
+}
+
+.imgs{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px;
+    margin: 1rem;
 }
